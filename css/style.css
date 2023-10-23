@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+
+/* Debug */
+.debug #site_header {
+    height: 75px;
+    width: 100%;
+    background-color: blue;
+}
+
+.debug .demo, .debug .strategic, .debug .testimonials, .debug .benefits, .debug .about-us, .debug .free {
+    height: 877px;
+    width: 100%;
+    background-color: orange;
+    border: 5px dashed black;
+}
+
+.debug .container {
+    height: 877px;
+    background-color: green;
+}
+
+.debug .row {
+    height: 743px;
+    background-color: purple;
+}
+
+.debug .col-8, .debug .col-4 {
+    height: 330px;
+    background-color: red;
+    border: 3px dotted black;
+}
+
+.debug .col-6 {
+    background-color: red;
+    height: 790px;
+    border: 3px dotted black;
+}
+
+.debug .col-12 {
+    background-color: red;
+    height: 300px;
+    border: 3px dotted black;
+}
+
+.debug #site_footer {
+    height: 180px;
+    width: 100%;
+    background-color: black;
+}
+
+
+/* Endregion Debug */
+
+/* Utility */
+
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1152px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+[class^="col-"] {
+    padding: 1rem
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
+}
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+.col-6 {
+    width: calc(100% / 12 * 6);
+}
+.col-12 {
+    width: calc(100% / 12 * 12);
+}
+
