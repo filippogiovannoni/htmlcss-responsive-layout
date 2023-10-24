@@ -11,6 +11,8 @@
     --resp-white: #ffffff;
     --resp-orange: #FDC15F;
     --resp-dark: #333333;
+    --resp-grey: #5A6E7F;
+
 }
 
 body {
@@ -91,12 +93,17 @@ body {
     padding: 1rem
 }
 
-.col-8 {
-    width: calc(100% / 12 * 8);
+.demo .col-8 {
+    width: calc(100% / 12 * 8 - 1rem);
 }
 
-.col-4 {
-    width: calc(100% / 12 * 4);
+.demo .col-4 {
+    width: calc(100% / 12 * 4 - 1rem);
+}
+
+.demo .col-4-top {
+    width: calc(100% / 12 * 4 - 1rem);
+    margin: 2rem 1rem 1rem 0;
 }
 
 .col-6 {
@@ -123,6 +130,18 @@ a {
     color: black;
 }
 
+.btn-blue {
+    background-color: var(--resp-blue);
+    border-radius: 2rem;
+    color: var(--resp-white);
+    padding: 0.5rem 2rem;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+
 /* Endregion Utility */
 
 /* Header */
@@ -145,3 +164,65 @@ a {
 }
 
 /* Endregion Header */
+
+/* Main */
+
+.demo .col-8,
+.demo .col-4,
+.demo .col-4-top {
+    background-color: var(--resp-lightblue);
+    border-radius: 20px;
+
+}
+
+.fa-apple {
+    padding: 0 0.25rem;
+}
+
+.card {
+    width: 25%;
+    position: absolute;
+    right: 50px;
+    bottom: -5px;
+}
+
+#phone {
+    width: 100%;
+}
+
+.demo h3 {
+    color: var(--resp-blue);
+    padding: 1.5rem 0;
+}
+
+.demo p {
+    color: var(--resp-dark);
+    font-size: 14px;
+}
+
+.demo-text {
+    width: 50%;
+}
+
+.demo p {
+    line-height: 1.5rem;
+    color: var(--resp-grey);
+}
+
+.appstore {
+    margin: 2rem 0 3rem 0;
+}
+
+div.col-8 {
+    position: relative;
+    margin: 2rem 1rem 1rem 0;
+}
+
+.demo .col-4 {
+    margin: 0 1rem 1rem 0;
+}
+
+.icon {
+    font-size: 70px;
+    color: var(--resp-blue);
+}
