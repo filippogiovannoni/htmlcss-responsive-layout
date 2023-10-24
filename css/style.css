@@ -165,7 +165,11 @@ a {
 
 /* Endregion Header */
 
+
+
 /* Main */
+
+/* Demo Section */
 
 .demo .col-8,
 .demo .col-4,
@@ -225,4 +229,71 @@ div.col-8 {
 .icon {
     font-size: 70px;
     color: var(--resp-blue);
+}
+
+.demo .row {
+    margin-bottom: 3rem;
+}
+
+/* End Demo Section */
+
+/* Strategic Section */
+
+.strategic {
+    background-color: var(--resp-purple);
+}
+
+#planning-1 {
+    width: 70%;
+    padding: 5rem 0;
+}
+
+.strategic h2 {
+    color: var(--resp-white);
+    margin-bottom: 2rem;
+}
+
+#strategic {
+    color: var(--resp-white);
+    font-size: 12px;
+    line-height: 1.5rem;
+    margin-left: 6rem;
+}
+
+
+#planning-2 {
+    width: 70%; 
+    padding: 1rem 1rem 0 1rem;
+}
+
+.planning-card {
+    background-color: var(--resp-white);
+    border-radius: 30px;
+    margin-top: 12rem;
+    width: 70%;
+}
+
+.strategic h3 {
+    padding: 1rem 0;
+}
+
+.planning-card p {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 14px;
+}
+
+.fa-arrow-down-long {
+    background-color: var(--resp-purple);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.arrow {
+    padding-bottom: 1rem;
+}
+
+.strategic .row {
+    padding-bottom: 2rem;
 }
