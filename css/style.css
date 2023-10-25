@@ -106,6 +106,10 @@ body {
     margin: 2rem 1rem 1rem 0;
 }
 
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
 .col-6 {
     width: calc(100% / 12 * 6);
 }
@@ -135,6 +139,13 @@ a {
     border-radius: 2rem;
     color: var(--resp-white);
     padding: 0.5rem 2rem;
+}
+
+.btn-purple {
+    background-color: var(--resp-purple);
+    border-radius: 2rem;
+    color: var(--resp-white);
+    padding: 0.5rem 2rem; 
 }
 
 .txt-center {
@@ -367,4 +378,51 @@ div.col-8 {
 
 .testimonials {
     margin-bottom: 4rem;
+}
+
+/* End Testimonials Section */
+
+/* Benefits Section */
+
+.benefits {
+    background-color: var(--resp-purple);
+    padding-bottom: 2rem;
+}
+
+.benefits h1 {
+    padding: 3rem 0;
+    color: var(--resp-white);
+}
+
+.benefits-card {
+    background-color: var(--resp-white);
+    border-radius: 20px
+}
+
+.benefits-card span {
+    font-size: 50px;
+    color: var(--resp-purple);
+    
+}
+
+.benefits-card h4 {
+    color: var(--resp-purple);
+    padding:0 0 1rem 1.5rem;
+}
+
+.benefits-number {
+    padding: 1.5rem 0 0.5rem 1.5rem;
+    font-weight: bold;
+}
+
+.benefits-text {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    font-weight: 100;
+    color: var(--resp-grey);
+    font-size: 12px;
+    line-height: 1.5rem;
+}
+
+.more-button {
+    padding: 0 1.5rem 1.5rem 1.5rem;
 }
