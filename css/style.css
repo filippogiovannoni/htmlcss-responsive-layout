@@ -495,3 +495,58 @@ div.col-8 {
 .manager {
     position: relative;
 }
+
+/* End About Us Section */
+
+/* Free Section */
+
+.free {
+    background-color: var(--resp-purple);
+}
+
+.free h6 {
+    text-transform: uppercase;
+    color: var(--resp-grey);
+    font-weight: 100;
+    padding-top: 3rem;
+}
+
+.free h2 {
+    color: var(--resp-white);
+    padding-top: 1.5rem;
+}
+
+.free h1 {
+    color: var(--resp-orange);
+    font-size: 50px;
+    padding-top: 2rem;
+}
+
+.free p {
+    font-weight: 200;
+    color: var(--resp-white);
+    font-size: 12px;
+    padding: 1.5rem 15rem;
+    line-height: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.free .btn-white {
+    padding: 1rem 3rem;
+    margin: 2rem 0;
+}
+
+.free a {
+    color: var(--resp-purple);
+}
+
+.fa-circle {
+    font-size: 5px;
+    vertical-align: middle;
+}
+
+.copyright {
+    padding: 1rem 0;
+}
+
+/* End Free Section */
