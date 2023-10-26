@@ -550,3 +550,28 @@ div.col-8 {
 }
 
 /* End Free Section */
+
+/* Footer */
+
+#site_footer {
+    background-color: var(--resp-dark);
+}
+
+#site_footer .container {
+    width: 20%;
+    margin: auto;
+}
+
+#site_footer p {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    color: var(--resp-white);
+    font-size: 11px;
+    line-height: 1.1rem;
+}
+
+#site_footer u {
+    color: var(--resp-purple);
+}
+
+/* End Footer */
