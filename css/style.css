@@ -126,6 +126,14 @@ body {
     width: calc(100% / 12 * 12);
 }
 
+.col-sm-4 {
+    width: 100%;
+}
+
+.col-sm-8 {
+    width: 100%;
+}
+
 .d-flex {
     display: flex;
 }
@@ -183,6 +191,12 @@ a {
 
 .buttons a {
     padding: 0.5rem 1rem
+}
+
+.fa-bars {
+    color: var(--resp-white);
+    font-size: 25px;
+    padding: 0.5rem;
 }
 
 /* Endregion Header */
@@ -453,7 +467,7 @@ div.col-8 {
 }
 
 .manager img {
-    height: 150px;
+    height: 120px;
     border-radius: 50%;
 }
 
@@ -575,3 +589,64 @@ div.col-8 {
 }
 
 /* End Footer */
+
+/* Media Queries Mobile First */
+
+@media screen and (max-width:320px)
+{
+    body {
+        min-width: 320px
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    #site_header {
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    }
+        
+    .buttons {
+        display: none;
+    }
+
+    .demo .row {
+        flex-direction: column;
+    }
+
+    .demo .col-sm-8 {
+        width: calc(100% - 2rem);
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    .demo h3 {
+        text-align: center;
+    }
+
+    .demo-text {
+        width: 100%;
+    }
+
+    .appstore {
+        text-align: center;
+        margin: 2rem 0 13rem 0;
+    }
+
+    .demo .card {
+        width: 60%;
+        position: absolute;
+        right: 55px;
+        bottom: -5px;
+    }
+
+    .demo .col-sm-4 {
+        width: calc(100% - 2rem);
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    .demo p {
+        text-align: center;
+    }
+
+}
