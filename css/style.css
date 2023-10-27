@@ -594,10 +594,6 @@ div.col-8 {
 
 @media screen and (max-width:320px)
 {
-    body {
-        min-width: 320px
-    }
-
     .container {
         width: 100%;
     }
@@ -649,4 +645,30 @@ div.col-8 {
         text-align: center;
     }
 
+    .strategic .row {
+        flex-direction: column;
+    }
+
+    .col-sm-6 {
+        width: 100%;
+    }
+
+    #planning-1 {
+        width: 100%;
+        padding-bottom: 4rem;
+    }
+
+    #strategic {
+        color: var(--resp-white);
+        margin-left: 0.25rem;
+    }
+
+    .planning-card {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    #planning-2 {
+        width: 100%;
+    }
 }
