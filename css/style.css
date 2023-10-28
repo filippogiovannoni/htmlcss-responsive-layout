@@ -694,4 +694,7 @@ div.col-8 {
         text-align: center;
     }
 
+    .benefits .row {
+        flex-direction: column;
+    }
 }
