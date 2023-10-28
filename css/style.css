@@ -730,4 +730,12 @@ div.col-8 {
     .about-us {
         margin-bottom: 2rem;
     }
+
+    .free p {
+        padding: 1rem;
+    }
+
+    .free h2 {
+        padding: 1.5rem 0.5rem 0 0.5rem;
+    }
 }
