@@ -118,9 +118,6 @@ body {
     width: calc(100% / 12 * 6);
 }
 
-.col-8 {
-    width: calc(100% / 12 * 8);
-}
 
 .col-12 {
     width: calc(100% / 12 * 12);
@@ -132,6 +129,10 @@ body {
 
 .col-sm-8 {
     width: 100%;
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
 }
 
 .d-flex {
@@ -700,6 +701,10 @@ div.col-8 {
 
     .about-us .row {
         flex-direction: column;
+    }
+
+    .col-sm-8 {
+        width: 100%;
     }
 
     .about-us h1 {
