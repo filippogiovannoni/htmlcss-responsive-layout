@@ -697,4 +697,37 @@ div.col-8 {
     .benefits .row {
         flex-direction: column;
     }
+
+    .about-us .row {
+        flex-direction: column;
+    }
+
+    .about-us h1 {
+        padding: 1.5rem 1.5rem 1.5rem 0;
+    }
+
+    .manager img {
+        height: 120px;
+    }
+
+    .about-us .col-sm-4 {
+        width: 100%;
+        padding-top: 0;
+    }
+    
+    .about-us p {
+        padding-bottom: 1rem;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .quote-left {
+        left: 90px
+    }
+
+    .about-us {
+        margin-bottom: 2rem;
+    }
 }
